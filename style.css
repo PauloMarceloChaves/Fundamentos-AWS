@@ -91,9 +91,9 @@ body {
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-    gap: 88px;
+    gap: 50px;
     padding: 29px 16px 43px 16px;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .conteudo-card {
@@ -136,8 +136,8 @@ body {
 .botao {
     font-weight: 400;
     font-size: 18px;
-    color: #33475B;
-    background-color: #FFFFFF;
+    color: #FFFFFF;
+    background-color: #33475B;
     border: 1px solid #33475B;
     border-radius: 4px;
     width: 139px;
@@ -146,9 +146,9 @@ body {
 }
 
 .botao:hover {
-    background-color: #33475B;
-    border: #33475B;
-    color: #FFFFFF;
+    background-color: #27dcdc;
+    border: #27dcdc;
+    color: #33475B;
     transform: scale(1.1);
     transition: all 0.5s;
 }

@@ -1,4 +1,25 @@
-/* responsivo das resoluções 516 */
+/* responsivo das resoluções 1024px */
+@media(max-width: 1024px) {
+    .container-cabeçalho {
+        width: 992px;
+        padding: 0 16px;
+    }
+
+    .container-principal {
+        max-width: 992px;
+    }
+
+    .container-secundario {
+        max-width: 992px;
+        justify-content: center;
+    }
+
+    .container-rodape {
+        max-width: 992px;
+    }
+}
+
+/* responsivo das resoluções 516px */
 @media(max-width: 516px) {
     .cabeçalho {
         height: 75px;
@@ -44,6 +65,7 @@
         max-width: 500px;
         padding: 24px 8px;
         gap: 50px;
+        justify-content: center;
     }
 
     .conteudo-card {
