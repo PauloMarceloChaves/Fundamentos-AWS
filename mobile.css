@@ -1,0 +1,105 @@
+/* responsivo das resoluções 516 */
+@media(max-width: 516px) {
+    .cabeçalho {
+        height: 75px;
+    }
+    .container-cabeçalho {
+        width: 500px;
+        padding: 0 8px;
+    }
+
+    .img-cabeçalho {
+        height: 75px;
+    }
+
+    .menu-cabeçalho {
+        gap: 10px;
+    }
+
+    .menu-link {
+        font-size: 16px;
+    }
+
+    .menu-link:hover {
+        display: none;
+    }
+
+    .container-principal {
+        max-width: 500px;
+        height: 500px;
+        padding: 0 8px;
+        gap: 10px;
+    }
+
+    .img-principal {
+        width: 100%;
+    }
+
+    .principal-escrito {
+        font-size: 24px;
+        line-height: 34.17px;
+    }
+
+    .container-secundario {
+        max-width: 500px;
+        padding: 24px 8px;
+        gap: 50px;
+    }
+
+    .conteudo-card {
+        padding: 24px;
+    }
+
+    .conteudo-card:hover {
+        display: none;
+    }
+
+    .card-img {
+        width: 75px;
+        height: 75px;
+    }
+
+    .card-titulo {
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .card-texto {
+        font-size: 14px;
+    }
+
+    .botao {
+        font-size: 16px;
+        color: #FFFFFF;
+        background-color: #33475B;
+        border: 1px solid #33475B;
+        cursor: none;
+    }
+
+    .botao:hover {
+        display: none;
+    }
+
+    .rodape {
+        height: 100px;
+    }
+
+    .container-rodape {
+        max-width: 500px;
+        height: 75px;
+        padding: 0 8px;
+    }
+
+    .img-nuvem {
+        width: 75px;
+    }
+
+    .rodape-redes {
+        width: 100px;
+        height: 75px;
+    }
+
+    .img-aws {
+        width: 75px;
+    }
+}
