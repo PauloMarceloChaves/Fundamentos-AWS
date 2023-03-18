@@ -133,6 +133,12 @@ body {
     font-weight: 400;
 }
 
+.botoes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .botao {
     font-weight: 400;
     font-size: 18px;
@@ -192,6 +198,7 @@ body {
 
 .img-rede {
     width: 25px;
+    color: #172335;
 }
 
 .img-aws {
