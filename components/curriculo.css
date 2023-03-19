@@ -63,7 +63,7 @@ body {
     margin-bottom: 8px;
 }
 
-.linkedin {
+.linkedin, .github {
     list-style-type: none;
 }
 
@@ -93,13 +93,10 @@ hr {
 .empresas {
     display: flex;
     justify-content: space-between;
-}
-
-.datas {
     font-weight: bold;
 }
 
-.cargo {
+.datas {
     font-weight: bold;
 }
 
@@ -135,8 +132,8 @@ hr {
 }
 
 .local {
-    width: 280px;
+    width: 320px;
     display: flex;
     flex-direction: row;
-    gap: 5px;
+    gap: 6px;
 }
