@@ -25,6 +25,6 @@ Desenvolver um site para divulgação dos currículos dos integrantes do grupo, 
 Agradecimentos:
 
 - A Escola da Nuvem e seus voluntários pela oportunidade e aprendizado.
-- Ao professor Thiago Ponte pelas aulas técnicas.
+- Ao professor Thiago Ponte pelas aulas técnicas e ao Gustavo Abade pelas aulas de preparo.
 - Ao nosso mentor Robson de Oliveira pela ajuda e todo suporte.
 
