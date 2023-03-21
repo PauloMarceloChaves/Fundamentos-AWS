@@ -54,22 +54,22 @@
         font-size: 16px;
     }
 
-    .menu-link:hover {
-        display: none;
-    }
-
     .conteudo {
         max-width: 500px;
         padding: 50px 16px;
     }
 
     .conteudo-principal h1 {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .conteudo-principal p {
         font-size: 14px;
         text-align: center;
+    }
+
+    .conteudo-principal-robson {
+        width: 230px;
     }
     
     .conteudo-principal-angelo {
@@ -78,6 +78,10 @@
 
     .conteudo-principal-fabio {
         width: 260px;
+    }
+
+    .conteudo-principal-marcelo {
+        width: 230px;
     }
 
     .conteudo-principal-rodrigo {
@@ -102,12 +106,13 @@
     }
 
     .empresas-nome {
-        width: 200px;
+        width: 300px;
     }
 
     .datas {
         width: 80px;
         text-align: center;
+        font-size: 12px !important;
     }
 
     .objetivo p {
@@ -118,8 +123,8 @@
         font-size: 14px;
     }
 
-    .cursos p {
-        width: 200px;
+    .cursos-nome {
+        width: 120px;
     }
 
     .curso {
@@ -127,7 +132,7 @@
         justify-content: space-between;
     }
 
-    .curso p.datas {
+    p.datas {
         width: 100px;
         text-align: end;
     }
@@ -137,6 +142,6 @@
     }
 
     .academico-escola {
-        width: 300px;
+        width: 280px;
     }
 }
