@@ -4,6 +4,36 @@
         width: 992px;
         padding: 0 16px;
     }
+
+    .menu-link {
+        font-size: 16px;
+    }
+    
+    .curso {
+        max-width: 300px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .objetivo p {
+        font-size: 14px;
+    }
+
+    .descrição-cargo li {
+        font-size: 14px;
+    }
+
+    th {
+        font-size: 14px;
+    }
+
+    .resumo-atividade li {
+        font-size: 14px;
+    }
+
+    .academico-escola {
+        width: 300px;
+    }
 }
 
 /* responsivo das resoluções 516px */
@@ -34,12 +64,28 @@
     }
 
     .conteudo-principal h1 {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .conteudo-principal p {
         font-size: 14px;
         text-align: center;
+    }
+    
+    .conteudo-principal-angelo {
+        width: 250px;
+    }
+
+    .conteudo-principal-fabio {
+        width: 260px;
+    }
+
+    .conteudo-principal-rodrigo {
+        width: 260px;
+    }
+
+    .conteudo-principal-valdemar {
+        width: 260px;
     }
 
     h3 {
@@ -59,6 +105,11 @@
         width: 200px;
     }
 
+    .datas {
+        width: 80px;
+        text-align: center;
+    }
+
     .objetivo p {
         font-size: 14px;
     }
@@ -72,7 +123,7 @@
     }
 
     .curso {
-        width: 250px;
+        width: 180px;
         justify-content: space-between;
     }
 
@@ -82,8 +133,7 @@
     }
 
     th {
-        font-size: 14px;
-        margin: 10px;
+        font-size: 12px;
     }
 
     .academico-escola {

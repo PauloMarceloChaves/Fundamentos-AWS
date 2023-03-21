@@ -61,20 +61,21 @@
         line-height: 34.17px;
     }
 
+    .conteudo-secundario {
+        width: 100%;
+    }
+
     .container-secundario {
         max-width: 500px;
-        height: 2840px;
+        margin: 0 auto;
+        display: flex;
         padding: 24px 8px;
-        gap: 24px;
+        gap: 20px;
         justify-content: center;
     }
 
     .conteudo-card {
         padding: 24px;
-    }
-
-    .conteudo-card:hover {
-        display: none;
     }
 
     .card-img {
@@ -96,11 +97,12 @@
         color: #FFFFFF;
         background-color: #33475B;
         border: 1px solid #33475B;
-        cursor: none;
     }
 
     .botao:hover {
-        display: none;
+        background-color: #33475B;
+        border: #33475B;
+        color: #FFFFFF;
     }
 
     .rodape {

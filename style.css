@@ -88,11 +88,10 @@ body {
 
 .container-secundario {
     max-width: 1408px;
-    height: 1012px;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-    gap: 50px;
+    gap: 24px;
     padding: 29px 16px 43px 16px;
     justify-content: space-between;
 }
@@ -118,10 +117,16 @@ body {
 }
 
 .container-titulo {
-    height: 100px;
+    height: 75px;
     display: flex;
     justify-content: space-between;
     margin-bottom: 10px;
+}
+
+.card-img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
 }
 
 .card-titulo {
