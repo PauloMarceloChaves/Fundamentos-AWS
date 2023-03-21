@@ -1,0 +1,92 @@
+/* responsivo das resoluções 1024px */
+@media(max-width: 1024px) {
+    .container-cabeçalho {
+        width: 992px;
+        padding: 0 16px;
+    }
+}
+
+/* responsivo das resoluções 516px */
+@media(max-width: 516px) {
+    .cabeçalho {
+        height: 75px;
+    }
+    .container-cabeçalho {
+        width: 500px;
+        padding: 0 8px;
+    }
+
+    .img-cabeçalho {
+        height: 75px;
+    }
+
+    .menu-link {
+        font-size: 16px;
+    }
+
+    .menu-link:hover {
+        display: none;
+    }
+
+    .conteudo {
+        max-width: 500px;
+        padding: 50px 16px;
+    }
+
+    .conteudo-principal h1 {
+        font-size: 20px;
+    }
+
+    .conteudo-principal p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    h3 {
+        font-size: 14px;
+        margin-top: 16px;
+    }
+
+    .resumo li {
+        font-size: 14px;
+    }
+
+    .empresas {
+        font-size: 14px;
+    }
+
+    .empresas-nome {
+        width: 200px;
+    }
+
+    .objetivo p {
+        font-size: 14px;
+    }
+
+    .descrição-cargo li {
+        font-size: 14px;
+    }
+
+    .cursos p {
+        width: 200px;
+    }
+
+    .curso {
+        width: 250px;
+        justify-content: space-between;
+    }
+
+    .curso p.datas {
+        width: 100px;
+        text-align: end;
+    }
+
+    th {
+        font-size: 14px;
+        margin: 10px;
+    }
+
+    .academico-escola {
+        width: 300px;
+    }
+}

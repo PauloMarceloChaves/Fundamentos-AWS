@@ -63,8 +63,8 @@ body {
     margin-bottom: 8px;
 }
 
-.linkedin, .github {
-    list-style-type: none;
+.linkedin a, .github a {
+    color: #000000;
 }
 
 .objetivo {

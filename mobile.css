@@ -63,8 +63,9 @@
 
     .container-secundario {
         max-width: 500px;
+        height: 2840px;
         padding: 24px 8px;
-        gap: 50px;
+        gap: 24px;
         justify-content: center;
     }
 
@@ -87,7 +88,7 @@
     }
 
     .card-texto {
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .botao {

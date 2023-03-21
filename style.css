@@ -88,6 +88,7 @@ body {
 
 .container-secundario {
     max-width: 1408px;
+    height: 1012px;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
@@ -199,6 +200,11 @@ body {
 .img-rede {
     width: 25px;
     color: #172335;
+}
+
+.botao-desativado {
+    pointer-events: none;
+    opacity: 50%;
 }
 
 .img-aws {
